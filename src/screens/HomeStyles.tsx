@@ -5,20 +5,33 @@ export const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
-        justifyContent: 'flex-start',
+        justifyContent: 'space-between',
         borderWidth: 3,
+    },
+    perfil: {
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        flex: 1,
+        paddingTop: 24,
     },
     cardsLinha: {
         flexDirection: 'row',
         width: '100%',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
         paddingHorizontal: 16,
+        marginTop: 24,
     },
     cardsColuna: {
         width: '100%',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        marginTop: 24,
+    },
+    rodape: {
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+        paddingBottom: 24,
     }
 })
